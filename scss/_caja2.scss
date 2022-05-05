@@ -1,0 +1,6 @@
+@import 'mixins';
+.caja2 {@include flexbox (flex);@extend %propiedad;flex-direction: column;background-color: $color-letra; width: auto; padding: 40px; border-bottom: 5px solid darken($bg-color-header, 40%);}
+.ache1 {color: $color-letra;  background-color: rgb(101, 78, 230); @extend %mensaje; }
+
+//  placeholder : % + nombre {} \\
+
